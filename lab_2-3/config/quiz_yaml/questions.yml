@@ -1,0 +1,79 @@
+- question: "Is Python case sensitive when dealing with identifiers?"
+  answers:
+    - "*yes"
+    - "no"
+    - "machine dependent"
+    - "none of the mentioned"
+  explanation: "Case is always significant while dealing with identifiers in python."
+
+- question: "What is the maximum possible length of an identifier?"
+  answers:
+    - "31 characters"
+    - "63 characters"
+    - "79 characters"
+    - "*none of the mentioned"
+  explanation: "Identifiers can be of any length."
+
+- question: "Which of the following is invalid?"
+  answers:
+    - "_a = 1"
+    - "__a = 1"
+    - "__str__ = 1"
+    - "*none of the mentioned"
+  explanation: "All the statements will execute successfully but at the cost of reduced readability."
+
+- question: "Which of the following is an invalid variable?"
+  answers:
+    - "my_string_1"
+    - "*1st_string"
+    - "foo"
+    - "_"
+  explanation: "Variable names should not start with a number."
+
+- question: "Why are local variable names beginning with an underscore discouraged?"
+  answers:
+    - "*they are used to indicate a private variables of a class"
+    - "they confuse the interpreter"
+    - "they are used to indicate global variables"
+    - "they slow down execution"
+  explanation: "As Python has no concept of private variables, leading underscores are used to indicate variables that must not be accessed from outside the class."
+
+- question: "Which of the following is not a keyword?"
+  answers:
+    - "*eval"
+    - "assert"
+    - "nonlocal"
+    - "pass"
+  explanation: "eval can be used as a variable."
+
+- question: "All keywords in Python are in _________"
+  answers:
+    - "*lower case"
+    - "UPPER CASE"
+    - "Capitalized"
+    - "None of the mentioned"
+  explanation: "True, False and None are capitalized while the others are in lower case."
+
+- question: "Which of the following is true for variable names in Python?"
+  answers:
+    - "*unlimited length"
+    - "all private members must have leading and trailing underscores"
+    - "underscore and ampersand are the only two special characters allowed"
+    - "none of the mentioned"
+  explanation: "Variable names can be of any length."
+
+- question: "Which of the following is an invalid statement?"
+  answers:
+    - "abc = 1,000,000"
+    - "*a b c = 1000 2000 3000"
+    - "a,b,c = 1000, 2000, 3000"
+    - "a_b_c = 1,000,000"
+  explanation: "Spaces are not allowed in variable names."
+
+- question: "Which of the following cannot be a variable?"
+  answers:
+    - "__init__"
+    - "*in"
+    - "it"
+    - "on"
+  explanation: "in is a keyword."

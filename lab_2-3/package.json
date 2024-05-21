@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "i18n": "^0.15.1",
+    "i18n-js": "^4.4.3",
+    "js-logger": "^1.6.1",
+    "pg": "^8.11.5",
+    "sequelize": "^6.37.3",
+    "telegraf": "^4.16.3",
+    "typeorm": "^0.3.20",
+    "yaml": "^2.4.2",
+    "yml": "^1.0.0"
+  },
+  "name": "mine",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "bun ./src/index.ts"
+  }
+}

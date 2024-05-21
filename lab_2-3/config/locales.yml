@@ -1,0 +1,21 @@
+en:
+  yes: "Yes"
+  no: "No"
+  greeting_message: Hi! Let's start!
+  start_quiz: Press "Yes" to start
+  farewell_message: Bye! See you soon
+  statistics: You have answered %{correct_answers} out of %{total_answers} questions correctly.
+  question: "%{name}, here's a quastion for You:\n%{question}"
+  correct_answer: "Correct!"
+  wrong_answer: "Wrong!"
+
+ua:
+  yes: "Так"
+  no: "Ні"
+  greeting_message: "Привіт! Почнемо роботу!"
+  start_quiz: Натисніть "Так", щоб почати
+  farewell_message: "Прощавай! До зустрічі"
+  statistics: "Ви відповіли правильно на %{correct_answers} з %{total_answers} питань."
+  question: "%{name}, ось питання для вас:\n%{question}"
+  correct_answer: "Правильно!"
+  wrong_answer: "Неправильно!"
